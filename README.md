@@ -9,6 +9,5 @@ Instructions
 2. In the terminal, cd into the directory (cd django-healthbot-main)
 3. Start up the virtual environment, run : pipenv shell
 4. Install requirements: pip install -r requirements.txt
-5. Make migrations python manage.py migrate
-6. In the virtual environment run,  python3 manage.py runserver 8080
-7. Go to http://127.0.0.1:8000/ in browser to access application
+5. In the virtual environment run:  python3 manage.py runserver 8080
+6. Go to http://127.0.0.1:8080/ in browser to access application
