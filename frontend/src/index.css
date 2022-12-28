@@ -1,0 +1,97 @@
+body {
+  margin: auto;
+  max-width:500px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+#patientrecords{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-collapse:collapse;
+  width:100%;
+}
+
+#patientrecords th, #patientrecords td {
+  border: 2px solid black;
+  padding:8px;
+  font-weight: 300;
+}
+#patientrecords tr:nth-child(even){
+  background-color: rgb(202, 241, 247);
+}
+#patientrecords tr:hover{background-color: rgb(255, 236, 185);}
+#patientrecords th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #313131;
+  color: white;
+}
+
+textarea {
+  width: 250px;
+  height: 100px;
+}
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 253, 253);
+} 
+li{
+  float: left;
+}
+
+ .custom-button{
+  background: linear-gradient(to bottom right, #000000, #ffca3a);
+  border: 2;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+ }
+
+#delete{
+    height: 40px;
+    width: 30px;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.rsc{
+  align-self: auto;
+}
+
+
+.success-bubble{
+  position:relative;
+  font-size: 15px;
+  line-height: 20px;
+  background-color: chartreuse;
+  padding: 15px;
+  width:300px;
+  height: 30px;
+  border-radius:35px;
+  text-align: center;
+}
+.main{
+  text-align: center;
+  padding-top: 10px;
+}
+
