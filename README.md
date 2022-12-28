@@ -6,7 +6,7 @@ HealthChatbot website written in Django + React
 
 Instructions
 1. Download the project(Code, Download ZIP)
-2. In the terminal, cd into the directory (cd django-healthbot-main)
+2. In the terminal, cd into the directory (cd, cd Downloads, cd django-healthbot-main)
 3. Start up the virtual environment, run : pipenv shell
 4. Install requirements: pip install -r requirements.txt
 5. In the virtual environment run:  python3 manage.py runserver 8080
